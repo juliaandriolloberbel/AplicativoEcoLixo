@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagamento Cartão</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/EcoLixo Logo.png" width="195" height="200" alt=""> 
+    </header>
+    <main>
+           <form id="pg">
+                <fieldset id="dadospagto">
+                    <h2>Pagamento</h2>
+                    <div>
+                        <select id="quantidade" name="quantidade" required>
+                            <option value="" disabled selected>Quantidade de parcelas</option>
+                            <option value="1x">1x de R$165,00</option>
+                            <option value="2x">2x de R$82,50</option>
+                            <option value="3x">3x de R$55,00</option>
+                            <option value="4x">4x de R$41,25</option>
+                            <option value="5x">5x de R$33,00</option>
+                            <option value="6x">6x de R$27,50</option>
+                            <option value="7x">7x de R$23,57</option>
+                            <option value="8x">8x de R$20,62</option>
+                            <option value="9x">9x de R$18,33</option>
+                            <option value="10x">10x de R$16,50</option>
+                            <option value="11x">11x de R$15,00</option>
+                            <option value="12x">12x de R$13,75</option>
+                        </select>
+                    </div>
+                    <div></div>
+                        <label id="nome" for="nome">Nome do cartão:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div>
+                        <label id="cartao" for="cartao">Número do cartão:</label>
+                        <input type="text" id="cartao" name="cartao" required>
+                    </div>
+                    <div>
+                        <label id="cvv" for="cvv">Código CVV:</label>
+                        <input type="text" id="cvv" name="cvv" required>
+                    </div>
+                    <div></div>
+                        <label id="mes" for="mes">Mês e ano de vencimento:</label>
+                        <input type="text" id="mes" name="mes" required>
+                    </div>
+                    
+                </fieldset>
+
+                <a href="index3.html"><button type="button">CONFIRMAÇÃO</button></a>
+            </form>
+     
+    </main>
+    
+</body>
+</html>
